@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset='utf-8'>
+		<title>問卷大調查</title>
+	</head>
+        <body>
+	
+        <style>
+	#topbar { background-color:lightgreen; color:midnightblue; padding:15px; margin:15px; }
+	</style>	
+	
+        <h1 style="text-align:center;"><div id="topbar"><b>個人資料</b></div>
+帳號: <input type="text" name="user"/><br/>
+密碼: <input type="password" name="password"/><br/>
+信箱: <input type="email" name="email"/><br/>
+照片: <input type="file" name="picture"/><br/>
+生日: <input type="date" name="birthday"/><br/>
+性別: <input type="radio" name="sex" value="male" checked/> 男
+      <input type="radio" name="sex" value="female"/> 女<br/>
+血型: <select name="BloodType">
+        <option value="A">A 型</option>
+        <option value="B">B 型</option>
+        <option value="AB">AB 型</option>
+        <option value="O">O 型</option>
+      </select> <br/>
+自我介紹： <br/>
+<textarea name="AboutMe">
+</textarea> <br/>
+<button type="button" class="btn btn-lg btn-submit">送出</button>
+<button type="button" class="btn btn-lg btn-reset">清除</button></h1>
+
+<footer>
+   <p>&copy; Company 2015</p>
+</footer>
+
+</form>
+</body>
+</html>	
